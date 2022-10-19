@@ -38,7 +38,7 @@
             "label": "run",
             "type": "shell",
             "isBackground": true,
-            "command": "C:\\desmume\\DeSmuME_0.9.11_x86.exe",
+            "command": "C:/desmume/DeSmuME_0.9.11_x86.exe",
             "args": [
                 "${workspaceFolder}/${workspaceFolderBasename}.nds"
             ],
@@ -55,10 +55,10 @@
                 "make debug"
             ],
             "isBackground": false,
-            "command": "C:\\desmume\\DeSmuME_0.9.11_x86_dev+.exe",
+            "command": "C:/desmume/DeSmuME_0.9.11_x86_dev+.exe",
             "args": [
-                "--arm9gdb=20000",
-                "${workspaceFolder}/${workspaceFolderBasename}.nds"
+                "${workspaceFolder}/${workspaceFolderBasename}.nds",
+                "--arm9gdb=8888",
             ],
             "presentation": {
                 "clear": true,

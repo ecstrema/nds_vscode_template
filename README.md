@@ -63,3 +63,8 @@ Running the `make` build task will create an `.nds` file at the root of the proj
 
 ---
 To the extent possible under law, [cuibonobo](https://github.com/cuibonobo/) has [waived all copyright](https://creativecommons.org/publicdomain/zero/1.0/) and related or neighboring rights to this work.
+
+
+## Debugging:
+
+Run task -> gdb-debug -> open the file in the emulator -> start debugging from vscode.
